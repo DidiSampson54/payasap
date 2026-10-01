@@ -4,7 +4,7 @@ import {
   Wallet,
   RefreshCw,
 } from "lucide-react";
-import "./Onboarding.css";
+import "./onboarding.css";
 
 function Onboarding({ onVerified }) {
   const [verificationType, setVerificationType] = useState("nin");
