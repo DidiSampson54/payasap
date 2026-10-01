@@ -1,0 +1,180 @@
+.accounts-page {
+  padding: 10px 0 40px;
+}
+
+.accounts-heading {
+  margin-bottom: 25px;
+}
+
+.accounts-heading p {
+  margin-bottom: 6px;
+  color: #aaa7c2;
+  font-size: 14px;
+}
+
+.accounts-heading h1 {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.account-main-card {
+  max-width: 760px;
+  padding: 30px;
+  border-radius: 18px;
+  background: linear-gradient(
+    135deg,
+    #24204b,
+    #191735
+  );
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.account-main-top {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.account-main-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 13px;
+  background: rgba(231, 189, 85, 0.14);
+  color: #e7bd55;
+}
+
+.account-main-top p {
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.account-main-top span {
+  color: #aaa7c2;
+  font-size: 13px;
+}
+
+.account-balance-section {
+  margin-top: 40px;
+}
+
+.account-balance-section span,
+.account-number-section > span {
+  display: block;
+  margin-bottom: 8px;
+  color: #aaa7c2;
+  font-size: 13px;
+}
+
+.account-balance-section h2 {
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.account-number-section {
+  margin-top: 35px;
+}
+
+.account-number-display {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  white-space: nowrap;
+}
+
+.account-number-display strong {
+  font-size: 19px;
+  letter-spacing: 0.5px;
+}
+
+.account-number-display button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #e7bd55;
+  cursor: pointer;
+}
+
+.account-number-display button:hover {
+  color: #f2ce72;
+}
+
+.account-number-section small {
+  display: block;
+  margin-top: 6px;
+  color: #7ee2a8;
+  font-size: 11px;
+}
+
+.account-info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  max-width: 760px;
+  margin-top: 20px;
+}
+
+.account-info-card {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 20px;
+  border-radius: 15px;
+  background: #17152f;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.account-info-icon {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 11px;
+  background: #201e3d;
+  color: #e7bd55;
+}
+
+.account-info-card span {
+  display: block;
+  margin-bottom: 5px;
+  color: #85819f;
+  font-size: 12px;
+}
+
+.account-info-card strong {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.account-info-card .status-active {
+  color: #7ee2a8;
+}
+
+@media (max-width: 600px) {
+  .accounts-page {
+    padding-bottom: 90px;
+  }
+
+  .account-main-card {
+    padding: 22px;
+  }
+
+  .account-balance-section h2 {
+    font-size: 30px;
+  }
+
+  .account-info-grid {
+    grid-template-columns: 1fr;
+  }
+}
